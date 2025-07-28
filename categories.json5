@@ -1,26 +1,80 @@
 // Poniższa lista jest przetwarzana w kolejności od góry do dołu - jeśli naklejka zostanie dopasowana do jednej kategorii,
 // to nie wystąpi już w kategoriach kolejnych.
 [
-//  "Tytuł kategorii": "wyrażenie regularne (regex) określające, jakie identyfikatory naklejek pasują do tej kategorii",
-    "Administratorskie i funkcjonalne DC": "^2024_1[^0-9]",
-    "Twórczość ogólna": "^2024_2[^0-9]",
-    "Konkursy i turnieje": "^2024_3[^0-9]",
-    "Teleturnieje": "^2024_4[^0-9]",
-    "Turnieje plebiscytowe": "^2024_5[^0-9]",
-    "Roleplay": "^2024_6[^0-9]",
-    "Mikołajki i walentynki": "^2024_7[^0-9]",
-    "Eventy twórczości": "^2024_8[^0-9]",
-    "Reksiocony": "^2024_9[^0-9]",
-    "Projekty researchowe": "^2024_10[^0-9]",
-    "Słuchowisko Fedora": "^2024_11[^0-9]",
-    "Projekty": "^2024_12[^0-9]",
-    "Pomocnicy": "^2024_13[^0-9]",
-    "Archiwista": "^2024_14[^0-9]",
-    "Autor odznak do Plejady Gwiazd": "^2024_15[^0-9]",
+/* SZABLON - komentarze (te po //) należy wywalić:
+    {
+        title: "Tytuł kategorii",
+        regex: "wyrażenie regularne (regex) określające, jakie identyfikatory naklejek pasują do tej kategorii",
+    },
+    // zostawiamy zawsze "wiszący" przecinek na końcu, żeby nie trzeba było się zastanawiać i żeby ładnie się wyświetlało w GitHub > Pull requests > Files changed
+*/
+    {
+        title: "Administratorskie i funkcjonalne DC",
+        regex: "^2024_1[^0-9]",
+    },
+    {
+        title: "Twórczość ogólna",
+        regex: "^2024_2[^0-9]",
+    },
+    {
+        title: "Konkursy i turnieje",
+        regex: "^2024_3[^0-9]",
+    },
+    {
+        title: "Teleturnieje",
+        regex: "^2024_4[^0-9]",
+    },
+    {
+        title: "Turnieje plebiscytowe",
+        regex: "^2024_5[^0-9]",
+    },
+    {
+        title: "Roleplay",
+        regex: "^2024_6[^0-9]",
+    },
+    {
+        title: "Mikołajki i walentynki",
+        regex: "^2024_7[^0-9]",
+    },
+    {
+        title: "Eventy twórczości",
+        regex: "^2024_8[^0-9]",
+    },
+    {
+        title: "Reksiocony",
+        regex: "^2024_9[^0-9]",
+    },
+    {
+        title: "Projekty researchowe",
+        regex: "^2024_10[^0-9]",
+    },
+    {
+        title: "Słuchowisko Fedora",
+        regex: "^2024_11[^0-9]",
+    },
+    {
+        title: "Projekty",
+        regex: "^2024_12[^0-9]",
+    },
+    {
+        title: "Pomocnicy",
+        regex: "^2024_13[^0-9]",
+    },
+    {
+        title: "Archiwista",
+        regex: "^2024_14[^0-9]",
+    },
+    {
+        title: "Autor odznak do Plejady Gwiazd",
+        regex: "^2024_15[^0-9]",
+    },
 
 
 
 
 
-    "Pozostałe": ".*",
+    {
+        title: "Pozostałe",
+        regex: ".*",
+    },
 ]

@@ -1,5 +1,5 @@
 {
-/* SZABLON - komentarze (te po //) należy wywalić
+/* SZABLON - komentarze (te po //) należy wywalić:
     "unikalny_identyfikator_do_wpisania_w_arkusz": {
         path: "pełna ścieżka do pliku grafiki.jpg",
         author: "autor grafiki",
@@ -12,7 +12,7 @@
         ],
         unlisted: true,  // true, jeśli naklejka ma być pominięta w spisie ogólnych, false w przeciwnym wypadku
     },
-    // zostawiamy zawsze "wiszący" przecinek na końcu, żeby nie trzeba było o nim myśleć i żeby ładnie się wyświetlało w GitHub > Pull requests > Files changed
+    // zostawiamy zawsze "wiszący" przecinek na końcu, żeby nie trzeba było się zastanawiać i żeby ładnie się wyświetlało w GitHub > Pull requests > Files changed
 */
     "2024_1a_owner": {
         path: "ODZNAKI 1 TRANSZA/owner.png",
