@@ -47,6 +47,7 @@ W albumach znajdują się tekstowo-obrazkowe embedy (dalej: naklejki) przyznawan
 5. Przy uzupełnianiu arkusza należy się kierować instrukcjami w nim zamieszczonymi. Wszystko podzielone jest na odpowiednie kolumny
    \- od lewej unikalny identyfikator użytkownika, wyświetlaną nazwę, jego ID na różnych platformach, no i wreszcie listę naklejek (każda w osobnej kolumnie).
    Do komórek z naklejkami można dopisywać notatki (nie komentarze!), na podstawie których zmieniana jest treść tytułu i/lub opisu naklejki w albumie danego użytkownika.
+   Niektóre naklejki zastępują inne. W arkuszu nie przejmujemy się tym i wpisujemy wszystko, jak leci. Ukryciem odpowiednich naklejek w Plejadzie zajmuje się skrypt na podstawie kluczy `supersedes` w pliku [stickers.json5](./stickers.json5).
 
 [^1]: Najważniejsze symbole: `^` to początek nazwy, `$` to koniec nazwy, `.` to dowolny znak, `[a-z]` oznacza dowolny znak spośród małych liter od a do z.  
       Są jeszcze kwantyfikatory: `?` oznacza opcjonalność poprzedniego symbolu, `*` dowolną liczbę jego wystąpień, a `+` co najmniej jedno - np. do `[4-7]+` pasuje `4`, `745`, `7777777`, ale ` ` ani `3` już nie.
