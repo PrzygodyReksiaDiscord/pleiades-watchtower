@@ -1,0 +1,26 @@
+// Poniższa lista jest przetwarzana w kolejności od góry do dołu - jeśli naklejka zostanie dopasowana do jednej kategorii,
+// to nie wystąpi już w kategoriach kolejnych.
+[
+//  "Tytuł kategorii": "wyrażenie regularne (regex) określające, jakie identyfikatory naklejek pasują do tej kategorii",
+    "Administratorskie i funkcjonalne DC": "^2024_1[^0-9]",
+    "Twórczość ogólna": "^2024_2[^0-9]",
+    "Konkursy i turnieje": "^2024_3[^0-9]",
+    "Teleturnieje": "^2024_4[^0-9]",
+    "Turnieje plebiscytowe": "^2024_5[^0-9]",
+    "Roleplay": "^2024_6[^0-9]",
+    "Mikołajki i walentynki": "^2024_7[^0-9]",
+    "Eventy twórczości": "^2024_8[^0-9]",
+    "Reksiocony": "^2024_9[^0-9]",
+    "Projekty researchowe": "^2024_10[^0-9]",
+    "Słuchowisko Fedora": "^2024_11[^0-9]",
+    "Projekty": "^2024_12[^0-9]",
+    "Pomocnicy": "^2024_13[^0-9]",
+    "Archiwista": "^2024_14[^0-9]",
+    "Autor odznak do Plejady Gwiazd": "^2024_15[^0-9]",
+
+
+
+
+
+    "Pozostałe": ".*",
+]
