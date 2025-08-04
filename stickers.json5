@@ -295,17 +295,17 @@
         name: "Potworny Hubert",
         description: "Posiadacz tej odznaki przeprowadził w 2022 roku/ w 2024/2025 roku  konkurs \"Reksionerzy\".",
     },
-    "2024_4b_reksionerzy_uczestnik": {
-        path: "ODZNAKI 1 TRANSZA/uczestnik reksionerów.png",
-        author: "joda",
-        name: "Prawie Reksioner",
-        description: "Posiadacz tej odznaki w 2022 roku/ w 2024/2025 roku brał udział w konkursie \"Reksionerzy\".",
-    },
-    "2024_4c_reksionerzy_wygrany": {
+    "2024_4b_reksionerzy_wygrany": {
         path: "ODZNAKI 1 TRANSZA/zwycięzca reksionerów.png",
         author: "joda",
         name: "Reksioner",
         description: "Posiadacz tej odznaki wygrał w 2022 roku/ 2024/2025 roku główną nagrodę w konkursie \"Reksionerzy\".",
+    },
+    "2024_4c_reksionerzy_uczestnik": {
+        path: "ODZNAKI 1 TRANSZA/uczestnik reksionerów.png",
+        author: "joda",
+        name: "Prawie Reksioner",
+        description: "Posiadacz tej odznaki w 2022 roku/ w 2024/2025 roku brał udział w konkursie \"Reksionerzy\".",
     },
     "2024_5a_postaci_organizator": {
         path: "ODZNAKI 1 TRANSZA/turniej postaci - organizator.png",
