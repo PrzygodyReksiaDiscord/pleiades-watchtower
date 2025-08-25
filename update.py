@@ -112,7 +112,7 @@ if __name__ == '__main__':
 
     with open(STICKERS_PATH, encoding='utf-8') as stickers_file:
         stickers = {
-            id: Sticker.from_serialized(sticker_categories, **sticker)
+            id: Sticker.from_serialized(id, sticker_categories, **sticker)
             for (id, sticker) in pyjson5.load(stickers_file).items()
         }
 
