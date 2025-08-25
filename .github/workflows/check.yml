@@ -11,5 +11,6 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-    - uses: ./.github/workflows/setup.yml
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/setup
     - run: python check.py

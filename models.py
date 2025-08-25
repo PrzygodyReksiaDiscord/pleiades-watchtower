@@ -39,7 +39,7 @@ class Sticker:
         return isinstance(value, Sticker) and hash(self) == hash(value)
 
     @staticmethod
-    def from_serialized(categories: list[StickerCategory], id: str, /, path: str, author: str, name: str, description: str) -> 'Sticker':
+    def from_serialized(id: str, categories: list[StickerCategory], /, path: str, author: str, name: str, description: str) -> 'Sticker':
         return Sticker(
             id,
             path,
