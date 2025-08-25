@@ -1,0 +1,15 @@
+name: Proofread the star catalogue
+
+on:
+  workflow_dispatch:
+  workflow_call:
+  push:
+    branches-ignore:
+      - main
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: ./.github/workflows/setup.yml
+    - run: python check.py
