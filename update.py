@@ -59,7 +59,7 @@ def match_category(sticker_id: str, categories: list[StickerCategory]) -> Sticke
 
 
 def fetch_assignment(stickers: list[Sticker]) -> list[Collector]:
-    collectors = []
+    collectors = {}
     headers, *rows = sheet.get(value_render_option=ValueRenderOption.unformatted)
     notes = sheet.get_notes()
     for (row_idx, row) in enumerate(rows, start=1):
@@ -88,17 +88,50 @@ def fetch_assignment(stickers: list[Sticker]) -> list[Collector]:
                 null_if_empty(' '.join([line for line in note if line.startswith('#')]).strip()),
                 null_if_empty(' '.join([line for line in note if not line.startswith('#')]).strip())
             ))
-        collectors.append(collector)
+        collectors[collector.id] = collector
     return collectors
 
 
-async def update_albums(client: discord.Client, collectors: list[Collector]):
+def extract_collector_id_from_message(message: discord.Message) -> str | None:
+    lines = message.content.splitlines()
+    if len(lines) < 1:
+        return
+    last_line = lines[len(lines) - 1]
+    if last_line.startswith('-# ✨ '):
+        return last_line.split(' ', maxsplit=2)[2]
+
+
+async def process_thread(thread: discord.Thread, to_delete: list[int], to_add: set[str], thread_mapping: dict[str, int]):
+    starter_message = await thread.fetch_message(thread.id)
+    if starter_message is None:
+        return
+    collector_id = extract_collector_id_from_message(starter_message)
+    if collector_id is None:
+        return
+    if collector_id in collectors.keys():
+        thread_mapping[collector_id] = thread.id
+        to_add.remove(collector_id)
+    else:
+        to_delete.append(thread.id)
+
+
+async def update_albums(client: discord.Client, collectors: dict[str, Collector]):
     try:
         logging.info(f'{client.user} has connected to Discord!')
         guild = client.get_guild(REKSIO_GUILD_ID)
         channel: discord.ForumChannel = guild.get_channel(PLEIADES_CHANNEL_ID)
         logging.info(f'Pleiades channel: #{channel.name}, type: {channel.type}')
         webhook = discord.Webhook.from_url(WEBHOOK_URL, client=client)
+        to_delete = []
+        to_add = set(collectors.keys())
+        thread_mapping = {}
+        for thread in channel.threads:
+            await process_thread(thread, to_delete, to_add, thread_mapping)
+        async for thread in channel.archived_threads():
+            if thread in channel.threads:
+                continue
+            await process_thread(thread, to_delete, to_add, thread_mapping)
+
     finally:
         await client.close()
 
@@ -116,7 +149,7 @@ if __name__ == '__main__':
             for (id, sticker) in pyjson5.load(stickers_file).items()
         }
 
-    collectors = fetch_assignment(stickers)
+    collectors = {} # fetch_assignment(stickers)
     print(collectors)
 
     @dc_client.event
