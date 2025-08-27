@@ -26,11 +26,13 @@ def _match_category(sticker_id: str, categories: list[StickerCategory]) -> Stick
 @dataclass(eq=False)
 class Sticker:
     id: str
+    category: StickerCategory
     path: str
     author: str
     name: str
     description: str
-    category: StickerCategory
+    supersedes: list[str]
+    unlisted: bool = False
 
     def __hash__(self) -> int:
         return hash(self.id)
@@ -39,14 +41,16 @@ class Sticker:
         return isinstance(value, Sticker) and hash(self) == hash(value)
 
     @staticmethod
-    def from_serialized(id: str, categories: list[StickerCategory], /, path: str, author: str, name: str, description: str) -> 'Sticker':
+    def from_serialized(id: str, categories: list[StickerCategory], /, path: str, author: str, name: str, description: str, supersedes = None, unlisted = False) -> 'Sticker':
         return Sticker(
             id,
+            _match_category(id, categories),
             path,
             author,
             name,
             description,
-            _match_category(id, categories)
+            supersedes or [],
+            unlisted
         )
 
 
