@@ -416,7 +416,7 @@
         supersedes: ["2024_6b_imperium_rur_uczestnik_srebro", "2024_6b_imperium_rur_uczestnik_braz"],
     },
     "2024_6b_imperium_rur_uczestnik_srebro": {
-        path: "ODZNAKI 1 TRANSZA/imperium rur srebrna uczestnik.png",
+        path: "ODZNAKI 1 TRANSZA/imprerium rur srebrna uczestnik.png",
         author: "szaszanik",
         name: "Srebrny Rurkowiec",
         description: "Posiadacz tej odznaki wziął udział w kilku rozgrywkach w role-play'owej grze strategicznej w systemie \"Imperium rur\"",
