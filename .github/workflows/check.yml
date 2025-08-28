@@ -1,0 +1,16 @@
+name: Proofread the star catalogue
+
+on:
+  workflow_dispatch:
+  workflow_call:
+  push:
+    branches-ignore:
+      - main
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/setup
+    - run: python check.py
