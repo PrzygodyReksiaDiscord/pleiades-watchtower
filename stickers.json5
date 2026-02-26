@@ -192,18 +192,21 @@
         author: "szaszanik",
         name: "Najtwardszy Rajdowiec Galaktyki",
         description: "Posiadacz tej odznaki zajął I miejsce w [numer] turniej speedrunnerski [nazwa i data]",
+        supersedes: ["2024_3b_speedrun_podium_ii", "2024_3b_speedrun_podium_iii", "2024_3c_speedrun_uczestnik"],
     },
     "2024_3b_speedrun_podium_ii": {
         path: "ODZNAKI 1 TRANSZA/turniej speedrunnerski - 2 mjsc.png",
         author: "szaszanik",
         name: "Najtwardszy Rajdowiec Galaktyki",
         description: "Posiadacz tej odznaki zajął II miejsce w [numer] turniej speedrunnerski [nazwa i data]",
+        supersedes: ["2024_3b_speedrun_podium_iii", "2024_3c_speedrun_uczestnik"],
     },
     "2024_3b_speedrun_podium_iii": {
         path: "ODZNAKI 1 TRANSZA/turniej speedrunnerski - 3 mjsc.png",
         author: "szaszanik",
         name: "Najtwardszy Rajdowiec Galaktyki",
         description: "Posiadacz tej odznaki zajął III miejsce w [numer] turniej speedrunnerski [nazwa i data]",
+        supersedes: ["2024_3c_speedrun_uczestnik"],
     },
     "2024_3c_speedrun_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/turniejspeedrunnerski - uczestnik.png",
@@ -222,6 +225,7 @@
         author: "maciekr",
         name: "Największy Dręczyciel Superherosa",
         description: "Posiadacz tej odznaki wygrał w 2023 roku konkurs na naciekawszy autorski poziom do SHiKN.",
+        supersedes: ["2024_3f_mumionki_uczestnik"],
     },
     "2024_3f_mumionki_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/shikn uczestnik.png",
@@ -246,6 +250,7 @@
         author: "nika",
         name: "Bestsellerowicz",
         description: "Posiadacz tej odznaki był  w 2023 roku autorem zwycięskiej pracy w konkursie \"Opowiadanie za nagranie\".",
+        supersedes: ["2024_3j_opowiadanie_nagranie_uczestnik"],
     },
     "2024_3j_opowiadanie_nagranie_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/opo za nagranie - uczestnik.png",
@@ -264,6 +269,7 @@
         author: "maciekr",
         name: "Discordowy Xavier",
         description: "Posiadacz tej odznaki zwyciężył w 2023-2025 roku w konkursie na okolicznościowy świąteczny/walentynkowy/rocznicowy baner serwerowy, który zdobił później główny serwer Discord dotyczący Przygód Reksia.",
+        supersedes: ["2024_3m_baner_uczestnik"],
     },
     "2024_3m_baner_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/baner uczestnik.png",
@@ -282,6 +288,7 @@
         author: "nika",
         name: "Pupilek Brosza",
         description: "Posiadacz tej odznaki zwyciężył w 2024 roku w pierwszej edycji konkursu na najlepszy cover utworu z Przygód Reksia",
+        supersedes: ["2024_3p_cover_uczestnik"],
     },
     "2024_3p_cover_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/Uczestnik konkursu na cover.png",
@@ -300,6 +307,7 @@
         author: "joda",
         name: "Reksioner",
         description: "Posiadacz tej odznaki wygrał w 2022 roku/ 2024/2025 roku główną nagrodę w konkursie \"Reksionerzy\".",
+        supersedes: ["2024_4c_reksionerzy_uczestnik"],
     },
     "2024_4c_reksionerzy_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/uczestnik reksionerów.png",
@@ -445,6 +453,7 @@
         author: "joda",
         name: "Przetrwaniec",
         description: "Posiadacz tej odznaki nie dał się zamordować i dotrwał do końca rozgrywki w [numer] edycji gry role-play'owej \"Reksioronpa\" inspirowanej serią gier \"Danganronpa\"",
+        supersedes: ["2024_reksioronpa_uczestnik"],
     },
     "2024_reksioronpa_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/reksioronpa - uczestnik.png",
