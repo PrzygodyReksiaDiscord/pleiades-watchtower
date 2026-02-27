@@ -18,736 +18,736 @@
         path: "ODZNAKI 1 TRANSZA/owner.png",
         author: "maciekr",
         name: "Pan(i) Owner",
-        description: "Posiadacz tej odznaki był lub nadal jest właścicielem głównego serwera Discord dotyczącego Przygód Reksia.",
+        description: "Właściciel serwera.", // okres, serwer
     },
     "2024_1b_admin": {
         path: "ODZNAKI 1 TRANSZA/admin.png",
         author: "maciekr",
         name: "Pan(i) Administrator",
-        description: "Posiadacz tej odznaki piastował lub piastuje stanowisko Administratora na głównym serwerze Discord dotyczącym Przygód Reksia.",
+        description: "Administrator serwera.", // okres, serwer
     },
     "2024_1c_mod": {
         path: "ODZNAKI 1 TRANSZA/mod.png",
         author: "maciekr",
         name: "Pan(i) Moderator",
-        description: "Posiadacz tej odznaki piastował lub piastuje stanowisko Moderatora na głównym serwerze Discord dotyczącym Przygód Reksia.",
+        description: "Moderator serwera.", // okres, serwer
     },
     "2024_1d_stroz": {
         path: "ODZNAKI 1 TRANSZA/stróż.png",
         author: "maciekr",
         name: "Nocna Straż",
-        description: "Posiadacz tej odznaki piastował lub piastuje stanowisko Stróża Nocnego na głównym serwerze Discord dotyczącym Przygód Reksia.",
+        description: "Serwerowy Stróż Nocny.", // okres, serwer
     },
     "2024_1e_medrzec": {
         path: "ODZNAKI 1 TRANSZA/medrzec.png",
         author: "maciekr",
         name: "Mędrzec (DC)",
-        description: "Posiadacz tej odznaki należy lub należał do Rady Mędrców głównego serwera Discord dotyczącego Przygód Reksia.",
+        description: "Członek Rady Mędrców.", // okres, serwer
     },
     "2024_1f_zalozyciel": {
         path: "ODZNAKI 1 TRANSZA/założyciel właściwy.png",
         author: "maciekr",
         name: "Matek Założyciel",
-        description: "Posiadacz tej odznaki założył serwer Discord, który przez jakiś czas pełnił funkcję głównego serwera dotyczącego Przygód Reksia na tej platformie i miał duży wpływ na jego początkową postać",
+        description: "Założyciel serwera.", // okres, serwer
         supersedes: ["2024_1f_zalozyciel_budowniczy"],
     },
     "2024_1f_zalozyciel_budowniczy": {
         path: "ODZNAKI 1 TRANSZA/założyciel budowniczy serwera.png",
         author: "maciekr",
-        name: "Budowniczy Serwera",
-        description: "Posiadacz tej odznaki miał duży wpływ na początkową postać serwera Discord, który przez jakiś czas pełnił funkcję głównego serwera dotyczącego Przygód Reksia na tej platformie.",
+        name: "Budowniczy Serwera", // okres, serwer
+        description: "Osoba mająca duży wpływ na początkowy rozwój serwera.",
     },
     "2024_1g_przewodniczacy": {
         path: "ODZNAKI 1 TRANSZA/przewodniczacy.png",
         author: "maciekr",
         name: "Pan Marszałek / Pani Marszałkowa",
-        description: "Posiadacz tej odznaki piastował lub piastuje stanowisko Przewodniczącego Rady głównego serwera Discord dotyczącego Przygód Reksia.",
+        description: "Przewodniczący Rady Serwera.", // okres, serwer
     },
     "2024_1h_radny": {
         path: "ODZNAKI 1 TRANSZA/radny.png",
         author: "maciekr",
         name: "Ciotek/Wujka Dobra Rada",
-        description: "Posiadacz tej odznaki należał lub należy do Rady głównego serwera Discord dotyczącego Przygód Reksia.",
+        description: "Członek Rady Serwera.", // okres, serwer
     },
     "2024_1i_radny_zasluzony": {
         path: "ODZNAKI 1 TRANSZA/radny_zaslugi.png",
         author: "maciekr",
         name: "Ciotek/Wujka Świetna Rada",
-        description: "Posiadacz tej odznaki należał lub należy do Rady głównego serwera discord dotyczącego Przygód Reksia i wykazał się szczególnymi zasługami dla serwera podczas swojej kadencji w Radzie.",
+        description: "Członek Rady Serwera ze szczególnymi zasługami.", // okres, serwer
         supersedes: ["2024_1h_radny"],
     },
     "2024_1j_ambasador": {
         path: "ODZNAKI 1 TRANSZA/ambasador.png",
         author: "maciekr",
         name: "Ambasador-ul",
-        description: "Posiadacz tej odznaki piastował lub piastuje stanowisko Ambasadora w Radzie głównego serwera Discord dotyczącego Przygód Reksia.",
+        description: "Serwerowy Ambasador.", // okres, serwer
     },
     "2024_1k_sponsor": {
         path: "ODZNAKI 1 TRANSZA/SPONSOR.png",
         author: "hurb",
         name: "Sugar User",
-        description: "Posiadacz tej odznaki przekazał, ufundował lub pomógł ufundować jedno albo więcej ulepszeń głównego serwera Discord dotyczącego Przygód Reksia lub w inny sposób wspomógł finansowo fandom.",
+        description: "(Współ)sponsor serwera lub fandomu.", // okazja
     },
     "2024_1m_warsztatowicz": {
         path: "ODZNAKI 1 TRANSZA/warsztatowicz.png",
         author: "hurb",
         name: "Dział IT",
-        description: "Posiadacz tej odznaki otrzymał rangę Warsztatowicza na głównym serwerze Discord dotyczącym Przygód Reksia i moderował bądź moderuje tam kanał warsztatu (techniczny)",
+        description: "Posiadacz roli Warsztatowicz - moderator kanałów technicznych.", // okres, serwer
     },
     "2024_1n_encyklopedysta": {
         path: "ODZNAKI 1 TRANSZA/reksiopedysta.png",
         author: "maciekr",
         name: "Reksiopedysta",
-        description: "Posiadacz tej odznaki otrzymał rangę Encyklopedysty na głównym serwerze Discord dotyczącym Przygód Reksia i moderował bądź moderuje tam kanał dotyczący reksiowych encyklopedii",
+        description: "Posiadacz roli Reksiopedysta - moderator kanałów wikipedii.", // okres, serwer
     },
     "2024_1o_duzy_gracz": {
         path: "ODZNAKI 1 TRANSZA/duży gracz.png",
         author: "maciekr",
         name: "Duży Gracz",
-        description: "Posiadacz tej odznaki otrzymał rangę Dużego gracza na serwerze Przygody Reksia Discord i moderował bądź moderuje tam kanał dotyczący innych gier komputerowych",
+        description: "Posiadacz roli Duży Gracz - moderator kanałów dotyczących gier komputerowych.", // okres, serwer
     },
     "2024_1p_dj": {
         path: "ODZNAKI 1 TRANSZA/dj.png",
         author: "hurb",
         name: "Guru-grilla",
-        description: "Posiadacz tej odznaki otrzymał rangę DJ na serwerze Przygody Reksia Discord i moderował bądź moderuje tam kanały głosowe",
+        description: "Posiadacz roli DJ - moderator kanałów głosowych.", // okres, serwer
     },
     "2024_1q_tuba_streamy": {
         path: "ODZNAKI 1 TRANSZA/YOUTUBER_I_STREAMER.png",
         author: "hurb",
         name: "Ko-komentator",
-        description: "Posiadacz tej odznaki otrzymał rangę Youtuberzy i Streamerzy na serwerze Przygody Reksia Discord",
+        description: "Posiadacz roli Youtuberzy i Streamerzy - fandomowy twórca treści wideo.", // okres, serwer
     },
     "2024_2a_plastyk": {
         path: "ODZNAKI 1 TRANSZA/ArtystaPlastyk.png",
         author: "swerszcz",
         name: "Kredki Kredkonen",
-        description: "Posiadacz tej odznaki jest autorem jednej lub więcej uznanych prac plastycznych związanych z Przygodami Reksia.",
+        description: "Autor jednej lub więcej uznanych prac plastycznych związanych z Przygodami Reksia.",
     },
     "2024_2a_plastyk_plus": {
         path: "ODZNAKI 1 TRANSZA/ArtystaPlastyktier2.png",
         author: "swerszcz",
         name: "Kredki Kredkonen II",
-        description: "Posiadacz tej odznaki jest autorem licznych, uznanych prac plastycznych związanych z Przygodami Reksia.",
+        description: "Autor licznych uznanych prac plastycznych związanych z Przygodami Reksia.",
         supersedes: ["2024_2a_plastyk"],
     },
     "2024_2b_muzyk": {
         path: "ODZNAKI 1 TRANSZA/muzyk.png",
         author: "swerszcz",
         name: "Żępol Kretien",
-        description: "Posiadacz tej odznaki stworzył jeden lub więcej uznanych utworów muzycznych inspirowanych Przygodami Reksia lub dokonał transkrypcji już istniejących utworów związanych z Przygodami Reksia",
+        description: "Autor jednego lub więcej uznanych utworów muzycznych inspirowanych Przygodami Reksia albo transkrypcji już istniejących utworów związanych z Przygodami Reksia.",
     },
     "2024_2c_pisarz": {
         path: "ODZNAKI 1 TRANSZA/pisarz opowiadań.png",
         author: "maciekr",
         name: "Artysta Pisarz",
-        description: "Posiadacz tej odznaki wyróżnił się tworzeniem szeroko pojętej twórczości literackiej związanej z Przygodami Reksia.",
+        description: "Autor wyróżniającej się twórczości literackiej związanej z Przygodami Reksia.",
     },
     "2024_2d_moder": {
         path: "ODZNAKI 1 TRANSZA/twórca modów.png",
         author: "hurb",
         name: "Gracz Wynalazca",
-        description: "Posiadacz tej odznaki brał udział w tworzeniu modów lub łatek do gier z serii Przygody Reksia.",
+        description: "Autor modów lub łatek do gier z serii Przygody Reksia.",
     },
     "2024_2e_memiarz": {
         path: "ODZNAKI 1 TRANSZA/Memy.png",
         author: "swerszcz",
         name: "Memdurf von Kretoff",
-        description: "Posiadacz tej odznaki przysłużył się fandomowi tworzeniem memów związanych z Przygodami Reksia",
+        description: "Autor memów związanych z Przygodami Reksia.",
     },
     "2024_2e_memiarz_plus": {
         path: "ODZNAKI 1 TRANSZA/Memytier2.png",
         author: "swerszcz",
         name: "Memdurf von Kretoff II",
-        description: "Posiadacz tej odznaki przysłużył się fandomowi tworzeniem licznych memów związanych z Przygodami Reksia",
+        description: "Autor licznych memów związanych z Przygodami Reksia.",
         supersedes: ["2024_2e_memiarz"],
     },
     "2024_2e_memiarz_plus_plus": {
         path: "ODZNAKI 1 TRANSZA/Memytier3.png",
         author: "swerszcz",
         name: "Memdurf von Kretoff III",
-        description: "Posiadacz tej odznaki przysłużył się fandomowi tworzeniem bardzo licznych memów związanych z Przygodami Reksia",
+        description: "Autor bardzo licznych memów związanych z Przygodami Reksia",
         supersedes: ["2024_2e_memiarz", "2024_2e_memiarz_plus"],
     },
     "2024_2f_ozdoby_oryginalne": {
         path: "ODZNAKI 1 TRANSZA/twórca emotek orginalnych.png",
         author: "joda",
         name: "Dekoratoren",
-        description: "Posiadacz tej odznaki jest autorem oryginalnych elementów oprawy graficznej (loga, banery, emoji, naklejki) głównego serwera Discord dotyczącego Przygód Reksia.",
+        description: "Autor oryginalnych elementów oprawy graficznej serwera (loga, banery, emoji, naklejki).",
     },
     "2024_2g_ozdoby_adaptowane": {
         path: "ODZNAKI 1 TRANSZA/twórca emotek wycinanych.png",
         author: "joda",
         name: "Operator nożyczek",
-        description: "Posiadacz tej odznaki jest autorem wycinanych elementów oprawy graficznej (loga, banery, emoji, naklejki) głównego serwera Discord dotyczącego Przygód Reksia.",
+        description: "Autor adaptowanych (wyciętych, przerobionych) elementów oprawy graficznej serwera (loga, banery, emoji, naklejki).",
     },
     "2024_3a_speedrun_organizator": {
         path: "ODZNAKI 1 TRANSZA/turniej speedrunnerski - org.png",
         author: "szaszanik",
         name: "Baron Wyścigonen",
-        description: "Posiadacz tej odznaki zorganizował i przeprowadził [numer] turniej speedrunnerski [nazwa i data]",
+        description: "Organizator turnieju speedrunnerskiego.", // nazwa, data
     },
     "2024_3b_speedrun_podium_i": {
         path: "ODZNAKI 1 TRANSZA/turniej speedrunnerski - 1 mjsc.png",
         author: "szaszanik",
         name: "Najtwardszy Rajdowiec Galaktyki",
-        description: "Posiadacz tej odznaki zajął I miejsce w [numer] turniej speedrunnerski [nazwa i data]",
+        description: "Zwycięzca I miejsca w turnieju speedrunnerskim.", // nazwa, data
         supersedes: ["2024_3b_speedrun_podium_ii", "2024_3b_speedrun_podium_iii", "2024_3c_speedrun_uczestnik"],
     },
     "2024_3b_speedrun_podium_ii": {
         path: "ODZNAKI 1 TRANSZA/turniej speedrunnerski - 2 mjsc.png",
         author: "szaszanik",
         name: "Najtwardszy Rajdowiec Galaktyki",
-        description: "Posiadacz tej odznaki zajął II miejsce w [numer] turniej speedrunnerski [nazwa i data]",
+        description: "Zwycięzca II miejsce w turnieju speedrunnerskim.", // nazwa, data
         supersedes: ["2024_3b_speedrun_podium_iii", "2024_3c_speedrun_uczestnik"],
     },
     "2024_3b_speedrun_podium_iii": {
         path: "ODZNAKI 1 TRANSZA/turniej speedrunnerski - 3 mjsc.png",
         author: "szaszanik",
         name: "Najtwardszy Rajdowiec Galaktyki",
-        description: "Posiadacz tej odznaki zajął III miejsce w [numer] turniej speedrunnerski [nazwa i data]",
+        description: "Zwycięzca III miejsca w turnieju speedrunnerskim.", // nazwa, data
         supersedes: ["2024_3c_speedrun_uczestnik"],
     },
     "2024_3c_speedrun_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/turniejspeedrunnerski - uczestnik.png",
         author: "szaszanik",
         name: "Twardy Rajdowiec",
-        description: "Posiadacz tej odznaki był uczestnikiem [numer] turnieju speedrunnerskiego [nazwa i data]",
+        description: "Uczestniki turnieju speedrunnerskiego.", // nazwa, data
     },
     "2024_3d_mumionki_organizator": {
         path: "ODZNAKI 1 TRANSZA/shikn org.png",
         author: "maciekr",
         name: "Władca Podziemi",
-        description: "Posiadacz tej odznaki zorganizował w 2023 roku konkurs na najciekawszy autorski poziomu do SHiKN.",
+        description: "Organizator konkursu na najciekawszy autorski poziom do SHiKN 2023.",
     },
     "2024_3e_mumionki_wygrany": {
         path: "ODZNAKI 1 TRANSZA/shikn zwycięzca.png",
         author: "maciekr",
         name: "Największy Dręczyciel Superherosa",
-        description: "Posiadacz tej odznaki wygrał w 2023 roku konkurs na naciekawszy autorski poziom do SHiKN.",
+        description: "Zwycięzca konkursu na naciekawszy autorski poziom do SHiKN 2023.",
         supersedes: ["2024_3f_mumionki_uczestnik"],
     },
     "2024_3f_mumionki_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/shikn uczestnik.png",
         author: "maciekr",
         name: "Dręczyciel Superherosa",
-        description: "Posiadacz tej odznaki był w 2023 roku uczestnikiem konkursu na najciekawszy autorski poziom do SHiK.",
+        description: "Uczestnik konkursu na najciekawszy autorski poziom do SHiKN 2023.",
     },
     "2024_3g_opowiadanie_nagranie_organizator": {
         path: "ODZNAKI 1 TRANSZA/opo za nagranie - organizator.png",
         author: "nika",
         name: "Redaktor Naczelny",
-        description: "Posiadacz tej odznaki był w 2023 roku organizatorem konkursu \"Opowiadanie za nagranie\".",
+        description: "Organizator konkursu \"Opowiadanie za nagranie\" 2023.",
     },
     "2024_3h_opowiadanie_nagranie_jury": {
         path: "ODZNAKI 1 TRANSZA/opo za nagranie - jury.png",
         author: "nika",
         name: "Krytyk Literacki",
-        description: "Posiadacz tej odznaki był w składzie jury oceniającego nadesłane prace oraz w składzie aktorów nagrywających je w formie audiobooków w ramach konkursu \"Opowiadanie za nagranie\" w 2023 r.",
+        description: "Jury oraz aktor głosowy konkursu \"Opowiadanie za nagranie\" 2023.",
     },
     "2024_3i_opowiadanie_nagranie_wygrany": {
         path: "ODZNAKI 1 TRANSZA/opo za nagranie - zwycięzca.png",
         author: "nika",
         name: "Bestsellerowicz",
-        description: "Posiadacz tej odznaki był  w 2023 roku autorem zwycięskiej pracy w konkursie \"Opowiadanie za nagranie\".",
+        description: "Zwycięzca konkursu \"Opowiadanie za nagranie\" 2023.",
         supersedes: ["2024_3j_opowiadanie_nagranie_uczestnik"],
     },
     "2024_3j_opowiadanie_nagranie_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/opo za nagranie - uczestnik.png",
         author: "nika",
         name: "Mały Fanficowicz",
-        description: "Posiadacz tej odznaki był w 2023 roku uczestnikiem konkursu \"Opowiadanie za nagranie\".",
+        description: "Uczestniki konkursu \"Opowiadanie za nagranie\" 2023.",
     },
     "2024_3k_baner_organizator": {
         path: "ODZNAKI 1 TRANSZA/baner org.png",
         author: "maciekr",
         name: "Bill-Brosz",
-        description: "Posiadacz tej odznaki był organizatorem konkursu na okolicznościowy baner serwerowy na głównym serwerze Discord dotyczącym Przygód Reksia - na baner świąteczny w 2023 i na baner walentynkowy w 2024 roku/na baner rocznicowy w 2025.",
+        description: "Organizator konkursu na okolicznościowy baner serwerowy.", // rok, rodzaj; do wyboru: baner świąteczny w 2023, baner walentynkowy w 2024 roku, baner rocznicowy w 2025
     },
     "2024_3l_baner_wygrany": {
         path: "ODZNAKI 1 TRANSZA/baner zwycięzca.png",
         author: "maciekr",
         name: "Discordowy Xavier",
-        description: "Posiadacz tej odznaki zwyciężył w 2023-2025 roku w konkursie na okolicznościowy świąteczny/walentynkowy/rocznicowy baner serwerowy, który zdobił później główny serwer Discord dotyczący Przygód Reksia.",
+        description: "Zwycięzca konkursu na okolicznościowy baner serwerowy.", // rok, rodzaj; do wyboru: baner świąteczny w 2023, baner walentynkowy w 2024 roku, baner rocznicowy w 2025
         supersedes: ["2024_3m_baner_uczestnik"],
     },
     "2024_3m_baner_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/baner uczestnik.png",
         author: "maciekr",
         name: "Dekorator na Zlecenie",
-        description: "Posiadacz tej odznaki brał udział w 2023-2025 roku w konkursie na okolicznościowy świąteczny/walentynkowy/rocznicowy baner serwerowy.",
+        description: "Uczestnik konkursu na okolicznościowy baner serwerowy.", // rok, rodzaj; do wyboru: baner świąteczny w 2023, baner walentynkowy w 2024 roku, baner rocznicowy w 2025
     },
     "2024_3n_cover_organizator": {
         path: "ODZNAKI 1 TRANSZA/Organizator konkursu na cover.png",
         author: "nika",
         name: "Broszę o Cover",
-        description: "Posiadacz tej odznaki zorganizował w 2024 roku pierwszą edycję konkursu na najlepszy cover utworu z Przygód Reksia",
+        description: "Organizator konkursu na najlepszy cover utworu z Przygód Reksia 2024.",
     },
     "2024_3o_cover_wygrany": {
         path: "ODZNAKI 1 TRANSZA/Zwyciezca konkursu na cover.png",
         author: "nika",
         name: "Pupilek Brosza",
-        description: "Posiadacz tej odznaki zwyciężył w 2024 roku w pierwszej edycji konkursu na najlepszy cover utworu z Przygód Reksia",
+        description: "Zwycięzca konkursu na najlepszy cover utworu z Przygód Reksia 2024.",
         supersedes: ["2024_3p_cover_uczestnik"],
     },
     "2024_3p_cover_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/Uczestnik konkursu na cover.png",
         author: "nika",
         name: "Stażysta u Brosza",
-        description: "Posiadacz tej odznaki nagrał w 2024 roku cover utworu z Przygód Reksia na pierwszą edycję konkursu na najlepszy cover",
+        description: "Uczestnik konkursu na najlepszy cover utworu z Przygód Reksia 2024.",
     },
     "2024_4a_reksionerzy_organizator": {
         path: "ODZNAKI 1 TRANSZA/org reksionerów.png",
         author: "joda",
         name: "Potworny Hubert",
-        description: "Posiadacz tej odznaki przeprowadził w 2022 roku/ w 2024/2025 roku  konkurs \"Reksionerzy\".",
+        description: "Organizator teleturnieju \"Reksionerzy\".", // edycja/rok
     },
     "2024_4b_reksionerzy_wygrany": {
         path: "ODZNAKI 1 TRANSZA/zwycięzca reksionerów.png",
         author: "joda",
         name: "Reksioner",
-        description: "Posiadacz tej odznaki wygrał w 2022 roku/ 2024/2025 roku główną nagrodę w konkursie \"Reksionerzy\".",
+        description: "Zwycięzca głównej nagrody w teleturnieju \"Reksionerzy\".", // edycja/rok
         supersedes: ["2024_4c_reksionerzy_uczestnik"],
     },
     "2024_4c_reksionerzy_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/uczestnik reksionerów.png",
         author: "joda",
         name: "Prawie Reksioner",
-        description: "Posiadacz tej odznaki w 2022 roku/ w 2024/2025 roku brał udział w konkursie \"Reksionerzy\".",
+        description: "Uczestnik teleturnieju \"Reksionerzy\".", // edycja/rok
     },
     "2024_5a_postaci_organizator": {
         path: "ODZNAKI 1 TRANSZA/turniej postaci - organizator.png",
         author: "szaszanik",
         name: "Postaciowicz",
-        description: "Posiadacz tej odznaki zorganizował w [rok] Turniej Postaci - plebiscyt na ulubioną postać z Przygód Reksia",
+        description: "Organizator Turnieju Postaci.", // rok/edycja
     },
     "2024_5b_minigierki_organizator": {
         path: "ODZNAKI 1 TRANSZA/OrgTurniejuminigierek.png",
         author: "swerszcz",
         name: "Minigierkowicz",
-        description: "Posiadacz tej odznaki zorganizował w [rok] Turniej Minigierek - plebiscyt na ulubioną minigrę z Przygód Reksia",
+        description: "Organizator Turnieju Minigierek.", // rok/edycja
     },
     "2024_5c_soundtrack_organizator": {
         path: "ODZNAKI 1 TRANSZA/Org turnieju soundtracków.png",
         author: "maciekr",
         name: "Soundtrackofil",
-        description: "Posiadacz tej odznaki zorganizował w 2024 roku Turniej Soundtracków - plebiscyt na ulubiony utwór muzyczny z Przygód Reksia",
+        description: "Organizator Turnieju Soundtracków.", // rok/edycja
     },
     "2024_5d_lokacje_organizator": {
         path: "ODZNAKI 1 TRANSZA/turniej lokacji.png",
         author: "anna97",
         name: "Tam i z Powrotem",
-        description: "Posiadacz tej odznaki zorganizował w 2025 roku Turniej Lokacji - plebiscyt na ulubioną lokację z Przygód Reksia",
+        description: "Organizator Turnieju Lokacji.", // rok/edycja
     },
     "2024_5e_slowo_roku_organizator": {
         path: "ODZNAKI 1 TRANSZA/słowo_roku.png",
         author: "maciekr",
         name: "ABC z Reksiarzami",
-        description: "Posiadacz tej odznaki organizował w latach 2021-2023 konkurs na serwerowe słowo roku",
+        description: "Organizator plebiscytu na serwerowe słowo roku.", // rok/edycja
     },
     "2024_5f_uprzejmosc_organizator": {
         path: "ODZNAKI 1 TRANSZA/org turnieju uprzejmości.png",
         author: "joda",
         name: "Kulturysta",
-        description: "Posiadacz tej odznaki zorganizował w 2021 i w 2022 rok Turniej Uprzejmości - plebiscyt na najbardziej uprzejmego uczestnika fandomu.",
+        description: "Organizator Turnieju Uprzejmości.", // rok/edycja
     },
     "2024_5g_uprzejmosc_wygrany": {
         path: "ODZNAKI 1 TRANSZA/zwycięzca turnieju uprzejmości.png",
         author: "joda",
         name: "Mistrz Autobus",
-        description: "Posiadacz tej odznaki zajął w 2021 i w 2022 roku [numer] miejsce w turniej uprzejmości - plebiscyt na najbardziej uprzejmego uczestnika fandomu.",
+        description: "Zwycięzca Turnieju Uprzejmości.", // rok/edycja, miejsce
     },
     "2024_5h_shipy_organizator": {
         path: "ODZNAKI 1 TRANSZA/org turnieju shipowego.png",
         author: "szaszanik",
         name: "Ustatkowany",
-        description: "Posiadacz tej odznaki zorganizował w 2022 roku Turniej Shipów - konkurs na najciekawszy ship postaci z Przygód Reksia.",
+        description: "Organizator Turnieju Shipów.", // rok/edycja
     },
     "2024_5i_shipy_wygrany": {
         path: "ODZNAKI 1 TRANSZA/zwycięzca turnieju szipowego.png",
         author: "szaszanik",
         name: "Swatka Ostateczna",
-        description: "Posiadacz tej odznaki wygrał w 2022 roku Turniej Shipów - konkurs na najciekawszy ship postaci z Przygód Reksia.",
+        description: "Zwycięzca Turnieju Uprzejmości.", // rok/edycja
     },
     "2024_5j_bukmacher": {
         path: "ODZNAKI 1 TRANSZA/bukmacher.png",
         author: "swerszcz",
         name: "Mały bukmacher",
-        description: "Posiadacz tej odznaki zdobył rangę \"Mały Bukmacher\" poprzez obstawianie wyników fazy pucharowej (tu wymień plebiscyty)",
+        description: "Zdobywca rangi \"Mały Bukmacher\".", // plebiscyt
     },
     "2024_6a_imperium_rur_organizator_burak": {
         path: "ODZNAKI 1 TRANSZA/Burak imperium rur org.gif",
         author: "szaszanik",
         name: "Rurmistrz",
-        description: "Posiadacz tej odznaki zorganizował i poprowadził rozgrywki w role-play'owej grze strategicznej w systemie \"Imperium rur\"",
+        description: "Prowadzący role-play'owej gry strategicznej w systemie \"Imperium rur\".", // edycja/nazwa
     },
     "2024_6a_imperium_rur_organizator_alpaczka": {
         path: "ODZNAKI 1 TRANSZA/Alpaczka imperium rur org.gif",
         author: "szaszanik",
         name: "Rurmistrz",
-        description: "Posiadacz tej odznaki zorganizował i poprowadził rozgrywki w role-play'owej grze strategicznej w systemie \"Imperium rur\"",
+        description: "Prowadzący role-play'owej gry strategicznej w systemie \"Imperium rur\".", // edycja/nazwa
         unlisted: true,
     },
     "2024_6a_imperium_rur_organizator_kaczor": {
         path: "ODZNAKI 1 TRANSZA/Kaczor imperium rur org.png",
         author: "szaszanik",
         name: "Rurmistrz",
-        description: "Posiadacz tej odznaki zorganizował i poprowadził rozgrywkę w role-play'owej grze strategicznej w systemie \"Imperium rur\"",
+        description: "Prowadzący role-play'owej gry strategicznej w systemie \"Imperium rur\".", // edycja/nazwa
         unlisted: true,
     },
     "2024_6a_imperium_rur_organizator_fedor": {
         path: "ODZNAKI 1 TRANSZA/fedor imperium rur org.png",
         author: "szaszanik",
         name: "Rurmistrz",
-        description: "Posiadacz tej odznaki zorganizował i poprowadził rozgrywkę w role-play'owej grze strategicznej w systemie \"Imperium rur\"",
+        description: "Prowadzący role-play'owej gry strategicznej w systemie \"Imperium rur\".", // edycja/nazwa
         unlisted: true,
     },
     "2024_6a_imperium_rur_organizator_xc": {
         path: "ODZNAKI 1 TRANSZA/xc imperium rur org.png",
         author: "szaszanik",
         name: "Rurmistrz",
-        description: "Posiadacz tej odznaki zorganizował i poprowadził rozgrywkę w role-play'owej grze strategicznej w systemie \"Imperium rur\"",
+        description: "Prowadzący role-play'owej gry strategicznej w systemie \"Imperium rur\".", // edycja/nazwa
         unlisted: true,
     },
     "2024_6a_imperium_rur_organizator_picus": {
         path: "ODZNAKI 1 TRANSZA/Picuś imperium rur org.gif",
         author: "szaszanik",
         name: "Rurmistrz",
-        description: "Posiadacz tej odznaki zorganizował i poprowadził rozgrywki w role-play'owej grze strategicznej w systemie \"Imperium rur\"",
+        description: "Prowadzący role-play'owej gry strategicznej w systemie \"Imperium rur\".", // edycja/nazwa
         unlisted: true,
     },
     "2024_6b_imperium_rur_uczestnik_zloto": {
         path: "ODZNAKI 1 TRANSZA/imperium rur złota uczestnik.png",
         author: "szaszanik",
         name: "Złoty Rurowiec",
-        description: "Posiadacz tej odznaki wziął udział w wielu rozgrywkach w role-play'owej grze strategicznej w systemie \"Imperium rur\"",
+        description: "Uczestnik wielu role-play'owych gier strategicznych w systemie \"Imperium rur\".",
         supersedes: ["2024_6b_imperium_rur_uczestnik_srebro", "2024_6b_imperium_rur_uczestnik_braz"],
     },
     "2024_6b_imperium_rur_uczestnik_srebro": {
         path: "ODZNAKI 1 TRANSZA/imprerium rur srebrna uczestnik.png",
         author: "szaszanik",
         name: "Srebrny Rurowiec",
-        description: "Posiadacz tej odznaki wziął udział w kilku rozgrywkach w role-play'owej grze strategicznej w systemie \"Imperium rur\"",
+        description: "Uczestnik kilku role-play'owych gier strategicznych w systemie \"Imperium rur\".",
         supersedes: ["2024_6b_imperium_rur_uczestnik_braz"],
     },
     "2024_6b_imperium_rur_uczestnik_braz": {
         path: "ODZNAKI 1 TRANSZA/imprerium rur brązowa uczestnik.png",
         author: "szaszanik",
         name: "Brązowy Rurowiec",
-        description: "Posiadacz tej odznaki wziął udział w rozgrywce/dwóch rozgrywkach w role-play'owej grze strategicznej w systemie \"Imperium rur\"",
+        description: "Uczestnik dwóch lub mniej role-play'owych gier strategicznych w systemie \"Imperium rur\".",
     },
     "2024_6c_reksioronpa_organizator": {
         path: "ODZNAKI 1 TRANSZA/reksioronpa org.png",
         author: "joda",
         name: "Lienokuma",
-        description: "Posiadacz tej odznaki zorganizował i poprowadził rozgrywkę w [numer] edycji role-play'owej killing game \"Reksioronpa\" inspirowanej serią gier \"Danganronpa\"",
+        description: "Prowadzący role-play'owej gry killing game \"Reksioronpa\" inspirowanej serią gier \"Danganronpa\".", // rok/edycja
     },
     "2024_6d_reksioronpa_mastermind": {
         path: "ODZNAKI 1 TRANSZA/reksioronpa mastermind.png",
         author: "joda",
         name: "Ten, Który Tak Potwornie Morduje",
-        description: "Posiadacz tej odznaki odegrał rolę masterminda w [numer] edycji gry role-play'owej \"Reksioronpa\" inspirowanej serią gier \"Danganronpa\"",
+        description: "Mastermind role-play'owej gry killing game \"Reksioronpa\" inspirowanej serią gier \"Danganronpa\".", // rok/edycja
     },
     "2024_reksioronpa_wygrany": {
         path: "ODZNAKI 1 TRANSZA/przetrwaniec reksioronpy.png",
         author: "joda",
         name: "Przetrwaniec",
-        description: "Posiadacz tej odznaki nie dał się zamordować i dotrwał do końca rozgrywki w [numer] edycji gry role-play'owej \"Reksioronpa\" inspirowanej serią gier \"Danganronpa\"",
+        description: "Uczestnik, który dotrwał żywy do końca role-play'owej gry killing game \"Reksioronpa\" inspirowanej serią gier \"Danganronpa\".", // rok/edycja
         supersedes: ["2024_reksioronpa_uczestnik"],
     },
     "2024_reksioronpa_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/reksioronpa - uczestnik.png",
         author: "joda",
         name: "Uprowadzony",
-        description: "Posiadacz tej odznaki wziął udział w rozgrywce w [numer] edycji gry role-play'owej \"Reksioronpa\" inspirowanej serią gier \"Danganronpa\"",
+        description: "Uczestnik role-play'owej gry killing game \"Reksioronpa\" inspirowanej serią gier \"Danganronpa\".", // rok/edycja
     },
     "2024_7a_mikolajki_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/Uczestnik akcji mikołajkowej.png",
         author: "nika",
         name: "Paker Prezentów",
-        description: "Posiadacz tej odznaki był uczestnikiem akcji mikołajkowej zorganizowanej w 2021 roku.",
+        description: "Uczestnik akcji mikołajkowej.", // rok/edycja
     },
     "2024_7b_mikolajki_kurier": {
         path: "ODZNAKI 1 TRANSZA/dostarczacz prezentów w akcji mikołajkowej.png",
         author: "nika",
         name: "Donosiciel Prezentów",
-        description: "Posiadacz tej odznaki pomagał w dostarczaniu prezentów uczestnikom akcji mikołajkowej zorganizowanej w 2021 roku.",
+        description: "Osoba odpowiedzialna za dostarczanie prezentów w akcji mikołajkowej.", // rok/edycja
     },
     "2024_7c_mikolajki_organizator": {
         path: "ODZNAKI 1 TRANSZA/org akcji mikołajkowej.png",
         author: "nika",
         name: "Jawny Mikołaj",
-        description: "Posiadacz tej odznaki zorganizował akcję mikołajkową w 2021 roku.",
+        description: "Organizator akcji mikołajkowej.", // rok/edycja
         supersedes: ["2024_7b_mikolajki_kurier"],
     },
     "2024_7d_walentynki_organizator": {
         path: "ODZNAKI 1 TRANSZA/Organizatorka poczty walentynkowej.png",
         author: "nika",
         name: "Święta Valenta",
-        description: "Posiadacz tej odznaki zorganizował pocztę walentynkową w 2023, 2024 i 2025 roku.",
+        description: "Organizator poczty walentynkowej.", // rok/edycja
         supersedes: ["2024_7e_walentynki_kurier"],
     },
     "2024_7e_walentynki_kurier": {
         path: "ODZNAKI 1 TRANSZA/pomocnik organizatora poczty walentynkowej.png",
         author: "nika",
         name: "Mały Kupidyn",
-        description: "Posiadacz tej odznaki pomagał w roznoszeniu poczty walentynkowej w [rok].",
+        description: "Osoba odpowiedzialna za dostarczanie poczty walentynkowej.", // rok/edycja
     },
     "2024_8a_nkkik_organizator": {
         path: "ODZNAKI 1 TRANSZA/Kilimandżaro_szkic_org.png",
         author: "swerszcz",
         name: "Przewodnik po Kilimandżaro",
-        description: "Posiadacz tej odznaki jest pomysłodawcą inicjatywy wspólnego stworzenia komiksu fanowskiego \"Na Kopiec Kreta i Kilimandżaro!\"",
+        description: "Pomysłodawca inicjatywy wspólnego stworzenia komiksu fanowskiego \"Na Kopiec Kreta i Kilimandżaro!\"",
     },
     "2024_8b_nkkik_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/Kilimandżaro_full_uczestnik.png",
         author: "swerszcz",
         name: "W Kopiec Wkopany",
-        description: "Posiadacz tej odznaki uczestniczył w tworzeniu co najmniej jednej strony fanowskiego komiksu \"Na Kopiec Kreta i Kilimandżaro!\"",
+        description: "Współautor fanowskiego komiksu \"Na Kopiec Kreta i Kilimandżaro!\"",
     },
     "2024_8c_rexember_organizator": {
         path: "ODZNAKI 1 TRANSZA/org rexemberu.png",
         author: "szaszanik",
         name: "Kurator Wystawy",
-        description: "Posiadacz tej odznaki zorganizował Maraton Twórczości (Rexember) w 2023 roku.",
+        description: "Organizator Maratonu Twórczości (Rexember).", // rok/edycja
     },
     "2024_8d_rexember_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/uczestnik rexemberu.png",
         author: "szaszanik",
         name: "Wystawiony w Rexember",
-        description: "Posiadacz tej odznaki był uczestnikiem Maratonu Twórczości, znanego również jako Rexember w 2023r.",
+        description: "Uczestnik Maratonu Twórczości (Rexember).", // rok/edycja
     },
     "2024_8e_prgj_organizator": {
         path: "ODZNAKI 1 TRANSZA/Dżemor_Org.png",
         author: "swerszcz",
         name: "Papa Dżem",
-        description: "Posiadacz tej odznaki zorganizował w 2024 roku I Game Jam o tematyce Przygód Reksia",
+        description: "Organizator Dżemu Growego Przygód Reksia.", // rok/edycja
     },
     "2024_8f_prgj_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/Dżemor_Uczestnik.png",
         author: "swerszcz",
         name: "Dżemowicz",
-        description: "Posiadacz tej odznaki był w 2024 roku uczestnikiem I Game Jamu o tematyce Przygód Reksia",
+        description: "Uczestnik Dżemu Growego Przygód Reksia.", // rok/edycja
     },
     "2024_9o_zbiorka_organizator": {
         path: "ODZNAKI 1 TRANSZA/Akcja charytatywna.png",
         author: "swerszcz",
         name: "Pomocna Łapa",
-        description: "Posiadacz tej odznaki zorganizował akcję charytatywną celem wparcia poszkodowanych w wyniku powodzi z września 2024 roku przeprowadzonej na Kretesconie 2024.",
+        description: "Organizator akcji charytatywnej wspierającej poszkodowanych w wyniku powodzi z września 2024 roku przeprowadzonej na Kretesconie 2024.",
     },
     "2024_10a_rexcrypcja_organizator": {
         path: "ODZNAKI 1 TRANSZA/Organizator - rekskrypcja.png",
         author: "nika",
         name: "Naczelny Rekskryba",
-        description: "Posiadacz tej odznaki zorganizował w 2021 roku akcję transkrybowania plików .wav z Przygód Reksia",
+        description: "Organizator projektu \"Rexcryption\" - transkrypcji plików .wav z Przygód Reksia.",
     },
     "2024_10b_rexcrypcja_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/Uczestnik - rekskrypcja.png",
         author: "nika",
         name: "Rekskryba",
-        description: "Posiadacz tej odznaki uczestniczył w 2021 roku w akcji transkrybowania plików .wav z Przygód Reksia",
+        description: "Uczestnik projektu \"Rexcryption\" - transkrypcji plików .wav z Przygód Reksia.",
     },
     "2024_10c_album_organizator": {
         path: "ODZNAKI 1 TRANSZA/twórca albumu.png",
         author: "nika",
         name: "Mól Książkowy",
-        description: "Posiadacz tej odznaki kierował pracami w tworzeniu kompendium PR w formie albumu.",
+        description: "Kierownik prac nad stworzeniem kompendium PR w formie albumu.",
     },
     "2024_10d_album_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/Pomocnik twórcy albumu.png",
         author: "nika",
         name: "Namolny Pomocnik",
-        description: "Posiadacz tej odznaki uczestniczył w tworzeniu kompendium PR w formie albumu.",
+        description: "Uczestnik prac nad stworzeniem kompendium PR w formie albumu.",
     },
     "2024_11a_sluchowisko_autor": {
         path: "ODZNAKI 1 TRANSZA/słuchowisko - autor.png",
         author: "swerszcz",
         name: "Verne Naszych Czasów",
-        description: "Posiadacz tej odznaki był pomysłodawcą i scenarzystą słuchowiska \"Zagadki i podróże wspaniałego wieku XIX-ego\"",
+        description: "Pomysłodawca i scenarzysta słuchowiska \"Zagadki i podróże wspaniałego wieku XIX-ego\".",
     },
     "2024_11b_sluchowisko_aktor": {
         path: "ODZNAKI 1 TRANSZA/słuchowisko_aktor.png",
         author: "swerszcz",
         name: "Kowal Swojego Głosu",
-        description: "Posiadacz tej odznaki był jednym z aktorów tworzących słuchowisko \"Zagadki i podróże wspaniałego wieku XIX-ego\"",
+        description: "Aktor głosowy słuchowiska \"Zagadki i podróże wspaniałego wieku XIX-ego\".",
     },
     "2024_11c_sluchowisko_grafika": {
         path: "ODZNAKI 1 TRANSZA/słuchowisko_artysta.png",
         author: "swerszcz",
         name: "Mini-Matejko",
-        description: "Posiadacz tej odznaki stworzył jedną lub więcej grafik ilustrujących słuchowisko \"Zagadki i podróże wspaniałego wieku XIX-ego\"",
+        description: "Autor ilustracji do słuchowiska \"Zagadki i podróże wspaniałego wieku XIX-ego\".",
     },
     "2024_11d_sluchowisko_muzyka": {
         path: "ODZNAKI 1 TRANSZA/słuchowisko - muzyka.png",
         author: "swerszcz",
         name: "Chopinista",
-        description: "Posiadacz tej odznaki stworzył jeden lub więcej utworów pojawiających się w słuchowisku \"Zagadki i podróże wspaniałego wieku XIX-ego\"",
+        description: "Twórca muzyki do słuchowiska \"Zagadki i podróże wspaniałego wieku XIX-ego\".",
     },
     "2024_11e_sluchowisko_korekta": {
         path: "ODZNAKI 1 TRANSZA/sluchowisko_korekta.png",
         author: "swerszcz",
         name: "Pan(i) Czepialski(-a)",
-        description: "Posiadacz tej odznaki wykonywał korekty skryptów dla słuchowiska \"Zagadki i podróże wspaniałego wieku XIX-ego\"",
+        description: "Korektor tekstów do słuchowiska \"Zagadki i podróże wspaniałego wieku XIX-ego\".",
     },
     "2024_12a_odkop_autor": {
         path: "ODZNAKI 1 TRANSZA/odkop twórca.png",
         author: "happy",
         name: "Sztygar",
-        description: "Posiadacz tej odznaki odpowiada za stworzenie gry fanowskiej \"Reksio i Kretes: Odkop\"",
+        description: "Autor gry fanowskiej \"Reksio i Kretes: Odkop\".",
         supersedes: ["2024_12b_odkop_goscinny"],
     },
     "2024_12b_odkop_goscinny": {
         path: "ODZNAKI 1 TRANSZA/odkop gościnny twórca.png",
         author: "happy",
         name: "Górnik Nieznany",
-        description: "Posiadacz tej odznaki był jednym z współtwórców gry fanowskiej \"Reksio i Kretes: Odkop\"",
+        description: "Twórca gościnny gry fanowskiej \"Reksio i Kretes: Odkop\".",
     },
     "2024_12c_film_rezyser": {
         path: "ODZNAKI 1 TRANSZA/Rezyser filmu dokumentalnego.png",
         author: "nika",
         name: "Reży-Star",
-        description: "Posiadacz tej odznaki odpowiada za reżyserię filmu dokumentalnego o \"Przygodach Reksia\"",
+        description: "Reżyser filmu dokumentalnego o \"Przygodach Reksia\".",
         supersedes: ["2024_12d_film_ekipa"],
     },
     "2024_12d_film_ekipa": {
         path: "ODZNAKI 1 TRANSZA/Ekipa filmu dokumentalnego.png",
         author: "nika",
         name: "Kamerzy-Star",
-        description: "Posiadacz tej odznaki brał udział w tworzeniu filmu dokumentalnego o \"Przygodach Reksia\"",
+        description: "Osoba biorąca udział w tworzeniu filmu dokumentalnego o \"Przygodach Reksia\".",
     },
     "2024_12e_remaster_organizator": {
         path: "ODZNAKI 1 TRANSZA/RiSPRemaster_autor.png",
         author: "swerszcz",
         name: "Remajster",
-        description: "Posiadacz tej odznaki odpowiada za stworzenie fanowskiego remastera Reksia i Skarbu Piratów",
+        description: "Kierownik projektu fanowskiego remastera \"Reksia i Skarbu Piratów\".",
         supersedes: ["2024_12f_remaster_uczestnik"],
     },
     "2024_12f_remaster_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/RiSPRemaster.png",
         author: "swerszcz",
         name: "Remajtek",
-        description: "Posiadacz tej odznaki uczestniczył w tworzeniu fanowskiego remastera Reksia i Skarbu Piratów",
+        description: "Uczestnik projektu fanowskiego remastera \"Reksia i Skarbu Piratów\".",
     },
     "2024_12g_adventures_organizator": {
         path: "ODZNAKI 1 TRANSZA/Translation_org.png",
         author: "swerszcz",
         name: "Eleven Lab Henperor",
-        description: "Posiadacz tej odznaki stworzył tłumaczenie Przygód Reksia w języku angielski oraz generował angielskojęzyczne kwestiie dialogowe na potrzeby projektu.",
+        description: "Kierownik projektu angielskiego dubbingu AI \"Przygód Reksia\".",
         supersedes: ["2024_12h_adventures_uczestnik"],
     },
     "2024_12h_adventures_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/Translation_pomoc.png",
         author: "swerszcz",
         name: "Little Helptrooper",
-        description: "Posiadacz tej odznaki uczestniczył w tłumaczeniu Przygód Reksia na język angielski",
+        description: "Pomocnik przy tłumaczeniu \"Przygód Reksia\" na język angielski.",
     },
     "2024_12i_turniej_rycerski": {
         path: "ODZNAKI 1 TRANSZA/twórca turnieju rycerskiego.png",
         author: "joda",
         name: "Na Koń Łychło!",
-        description: "Posiadacz tej odznaki uczestniczył w tworzeniu fanowskiej wariacji turnieju rycerskiego z Reksia i Wehikułu Czasu",
+        description: "Uczestnik projektu fanowskiej wariacji turnieju rycerskiego z \"Reksia i Wehikułu Czasu\".",
     },
     "2024_12j_touhau": {
         path: "ODZNAKI 1 TRANSZA/touhau.png",
         author: "maciekr",
         name: "Tou-hałowicz",
-        description: "Posiadacz tej odznaki uczestniczył w tworzeniu gry fanowskiej \"Reksio Tou-hau\"",
+        description: "Twórca gry fanowskiej \"Reksio Tou-hau\".",
     },
     "2024_12k_sermageddon": {
         path: "ODZNAKI 1 TRANSZA/sermageddon.png",
         author: "anna97",
         name: "Wiecie co? Lubię tę odznakę",
-        description: "Posiadacz tej odznaki odpowiada za stworzenie gry fanowskiej \"Reksio i Kretes: Sermageddon\"",
+        description: "Twórca gry fanowskiej \"Reksio i Kretes: Sermageddon\".",
     },
     "2024_12l_crikn": {
         path: "ODZNAKI 1 TRANSZA/mod całe reksio i kapitan w akcji.png",
         author: "szaszanik",
         name: "Mały Obieżyświat",
-        description: "Posiadacz tej odznaki uczestniczył w tworzeniu modyfikacji \"Całe Reksio i Kapitan Nemo\" do Reksio i Kretes: W Akcji!",
+        description: "Twórca modyfikacji \"Całe Reksio i Kapitan Nemo\" do gry \"Reksio i Kretes: W Akcji!\".",
     },
     "2024_12m_cos2_port": {
         path: "ODZNAKI 1 TRANSZA/cos2 - autor portu na pc.png",
         author: "swerszcz",
         name: "PC of Secrets 2",
-        description: "Posiadacz tej odznaki uczestniczył w tworzeniu portu CoS2 dla PC",
+        description: "Współtwórca portu CoS2 na PC.",
     },
     "2024_12n_rpg_autor": {
         path: "ODZNAKI 1 TRANSZA/twórca systemu rpg.png",
         author: "szaszanik",
         name: "Mysz Gry",
-        description: "Posiadacz tej odznaki uczestniczył w tworzeniu systemu RPG inspirowanego Przygodami Reksia",
+        description: "Twórca systemu RPG inspirowanego Przygodami Reksia.", // nazwa
         supersedes: ["2024_12o_rpg_pomocnik"],
     },
     "2024_12o_rpg_pomocnik": {
         path: "ODZNAKI 1 TRANSZA/pomocnik systemu rpg.png",
         author: "szaszanik",
         name: "Rycerz Piklibskiego Grodu",
-        description: "Posiadacz tej odznaki pomagał w tworzeniu systemu RPG inspirowanego Przygodami Reksia",
+        description: "Pomocnik przy tworzeniu systemu RPG inspirowanego Przygodami Reksia.", // nazwa
     },
     "2024_12p_karty": {
         path: "ODZNAKI 1 TRANSZA/karty przeciwko reksiości - twórca.png",
         author: "szaszanik",
         name: "Reksiowy Dżentelmen / Reksiowa Lady",
-        description: "Posiadacz tej odznaki uczestniczył w tworzeniu kart do gry \"Krety przeciwko reksiości\" - fandomowej wersji gry \"Karty przeciwko ludzkości\".",
+        description: "Współtwórca kart do gry \"Krety przeciwko reksiości\" - fandomowej wersji gry \"Karty przeciwko ludzkości\".",
     },
     "2024_13a_pomocnik_boty": {
         path: "ODZNAKI 1 TRANSZA/pomocnik ds. botów.png",
         author: "hurb",
         name: "Bociarz Drogowy",
-        description: "Posiadacz tej odznaki niejednokrotnie udzielał administracji głównego serwera Discord dotyczącego Przygód Reksia pomocy w uspranianiu działania botów.",
+        description: "Członek serwera, który, nie będąc w kadrze, niejednokrotnie świadczył pomoc przy usprawnianiu działania botów serwerowych.",
     },
     "2024_13b_pomocnik_tlumaczenia": {
         path: "ODZNAKI 1 TRANSZA/tlumacz serwerowy.png",
         author: "hurb",
         name: "Tłumacz Gugl-dryk",
-        description: "Posiadacz tej odznaki dokonał licznych tłumaczeń ogłoszeń serwerowych, regulaminów i innych tekstów administracyjnych na głównym serwerze Discord dotyczącym Przygody Reksia.",
+        description: "Członek serwera, który, nie będąc w kadrze, dokonał licznych tłumaczeń ogłoszeń serwerowych, regulaminów i innych tekstów administracyjnych.",
     },
     "2024_13c_pomocnik_testy": {
         path: "ODZNAKI 1 TRANSZA/tester.png",
         author: "swerszcz",
         name: "Pilot Oblatywacz",
-        description: "Posiadacz tej odznaki ogrywał fanowską grę/modyfikację związaną z Przygodami Reksia celem jej testowania lub prezentacji.",
+        description: "Tester gier i modyfikacji fandowskich.", // nazwa
     },
     "2024_13d_pomocnik_dubbing": {
         path: "ODZNAKI 1 TRANSZA/DubbingGrowy.png",
         author: "swerszcz",
         name: "Rodzinka Kowalów",
-        description: "Posiadacz tej odznaki użyczał swojego głosu w różnych projektach fandomu.",
+        description: "Osoba użyczająca głosu na potrzeby różnych projektów fandomowych.",
     },
     "2024_13e_pomocnik_grafiki_gamedev": {
         path: "ODZNAKI 1 TRANSZA/Pomoc graficzna - FangameMod.png",
         author: "swerszcz",
         name: "Pędzel Gamedevu",
-        description: "Posiadacz tej odznaki wykonał grafiki na potrzeby różnych projektów reksiowego gamedevu.",
+        description: "Osoba wykonująca grafiki na potrzeby różnych projektów reksiowego gamedevu.",
     },
     "2024_13f_pomocnik_grafiki_teleturnieje": {
         path: "ODZNAKI 1 TRANSZA/Pomoc graficzna - Teleturnieje.png",
         author: "swerszcz",
         name: "Artysta Studyjny",
-        description: "Posiadacz tej odznaki wykonał grafiki na potrzeby reksiowych teleturniejów lub konkursów.",
+        description: "Osoba wykonująca grafiki na potrzeby reksiowych teleturniejów lub konkursów.",
     },
     "2024_13g_pomocnik_grafiki_inne": {
         path: "ODZNAKI 1 TRANSZA/Pomoc graficzna - Różności.png",
         author: "swerszcz",
         name: "Zwierzę Renesansu",
-        description: "Posiadacz tej odznaki wykonał grafiki na potrzeby różnych projektów fandomu jak gry roleplay czy inne wydarzenia.",
+        description: "Osoba wykonująca grafiki na potrzeby różnych projektów fandomowych, takich jak gry roleplay czy inne wydarzenia.",
     },
     "2024_13g_pomocnik_muzyka": {
         path: "ODZNAKI 1 TRANSZA/pomoc muzyczna.png",
         author: "swerszcz",
         name: "Moleman",
-        description: "Posiadacz tej odznaki wykonywał na potrzeby różnych projektów muzykę",
+        description: "Osoba wykonująca muzykę na potrzeby różnych projektów fandomowych.",
     },
     "2024_14_archiwista": {
         path: "ODZNAKI 1 TRANSZA/archiwum.png",
         author: "maciekr",
         name: "Ten, co Robi Backupy",
-        description: "Posiadacz tej odznaki znacząco przyczynił się zachowania i zabezpieczania plików i wiadomości z jednej z platform fandomu lub plików gier z serii.",
+        description: "Osoba, która znacząco przyczyniła się do zachowania i zabezpieczania plików i wiadomości z jednej z platform fandomu lub plików gier z serii.",
     },
     "2024_15_odznaki_rysownik": {
         path: "ODZNAKI 1 TRANSZA/plejadagrafik_.png",
         author: "swerszcz",
         name: "Gwiazda Incepcji",
-        description: "Posiadacz tej odznaki jest autorem grafik w plejadzie gwiazd.",
+        description: "Autor grafik w Plejadzie Gwiazd.",
     },
 }
