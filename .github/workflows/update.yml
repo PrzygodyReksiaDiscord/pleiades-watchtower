@@ -1,0 +1,22 @@
+name: Rectify the stars alignment
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 3/7 * * *'
+  push:
+    branches:
+      - main
+
+jobs:
+  check:
+    uses: ./.github/workflows/check.yml
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/setup
+    - uses: oNaiPs/secrets-to-env-action@v1
+      with:
+        secrets: ${{ toJSON(secrets) }}
+    - run: python update.py
