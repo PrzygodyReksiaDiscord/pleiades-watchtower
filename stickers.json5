@@ -116,7 +116,7 @@
         path: "ODZNAKI 1 TRANSZA/YOUTUBER_I_STREAMER.png",
         author: "hurb",
         name: "Ko-komentator",
-        description: "Posiadacz roli Youtuberzy i Streamerzy - fandomowy twórca treści wideo.", // okres, serwer
+        description: "Posiadacz roli Youtuberzy i Streamerzy lub fandomowy twórca treści wideo.", // okres, serwer
     },
     "2024_2a_plastyk": {
         path: "ODZNAKI 1 TRANSZA/ArtystaPlastyk.png",
@@ -147,7 +147,7 @@
         path: "ODZNAKI 1 TRANSZA/twórca modów.png",
         author: "hurb",
         name: "Gracz Wynalazca",
-        description: "Autor modów lub łatek do gier z serii Przygody Reksia.",
+        description: "Autor modów lub łatek do gier z serii Przygody Reksia.", // lista nazw
     },
     "2024_2e_memiarz": {
         path: "ODZNAKI 1 TRANSZA/Memy.png",
@@ -173,13 +173,13 @@
         path: "ODZNAKI 1 TRANSZA/twórca emotek orginalnych.png",
         author: "joda",
         name: "Dekoratoren",
-        description: "Autor oryginalnych elementów oprawy graficznej serwera (loga, banery, emoji, naklejki).",
+        description: "Autor co najmniej 1 oryginalnego elementu oprawy graficznej serwera (loga, banery, emoji, naklejki).",
     },
     "2024_2g_ozdoby_adaptowane": {
         path: "ODZNAKI 1 TRANSZA/twórca emotek wycinanych.png",
         author: "joda",
         name: "Operator nożyczek",
-        description: "Autor adaptowanych (wyciętych, przerobionych) elementów oprawy graficznej serwera (loga, banery, emoji, naklejki).",
+        description: "Autor co najmniej 1 adaptowanego (wyciętego/przerobionego) elementu oprawy graficznej serwera (loga, banery, emoji, naklejki).",
     },
     "2024_3a_speedrun_organizator": {
         path: "ODZNAKI 1 TRANSZA/turniej speedrunnerski - org.png",
@@ -191,72 +191,72 @@
         path: "ODZNAKI 1 TRANSZA/turniej speedrunnerski - 1 mjsc.png",
         author: "szaszanik",
         name: "Najtwardszy Rajdowiec Galaktyki",
-        description: "Zwycięzca I miejsca w turnieju speedrunnerskim.", // nazwa, data
+        description: "Zdobywca I miejsca w turnieju speedrunnerskim.", // nazwa, data
         supersedes: ["2024_3b_speedrun_podium_ii", "2024_3b_speedrun_podium_iii", "2024_3c_speedrun_uczestnik"],
     },
     "2024_3b_speedrun_podium_ii": {
         path: "ODZNAKI 1 TRANSZA/turniej speedrunnerski - 2 mjsc.png",
         author: "szaszanik",
         name: "Najtwardszy Rajdowiec Galaktyki",
-        description: "Zwycięzca II miejsce w turnieju speedrunnerskim.", // nazwa, data
+        description: "Zdobywca II miejsca w turnieju speedrunnerskim.", // nazwa, data
         supersedes: ["2024_3b_speedrun_podium_iii", "2024_3c_speedrun_uczestnik"],
     },
     "2024_3b_speedrun_podium_iii": {
         path: "ODZNAKI 1 TRANSZA/turniej speedrunnerski - 3 mjsc.png",
         author: "szaszanik",
         name: "Najtwardszy Rajdowiec Galaktyki",
-        description: "Zwycięzca III miejsca w turnieju speedrunnerskim.", // nazwa, data
+        description: "Zdobywca III miejsca w turnieju speedrunnerskim.", // nazwa, data
         supersedes: ["2024_3c_speedrun_uczestnik"],
     },
     "2024_3c_speedrun_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/turniejspeedrunnerski - uczestnik.png",
         author: "szaszanik",
         name: "Twardy Rajdowiec",
-        description: "Uczestniki turnieju speedrunnerskiego.", // nazwa, data
+        description: "Uczestnik turnieju speedrunnerskiego.", // nazwa, data
     },
     "2024_3d_mumionki_organizator": {
         path: "ODZNAKI 1 TRANSZA/shikn org.png",
         author: "maciekr",
         name: "Władca Podziemi",
-        description: "Organizator konkursu na najciekawszy autorski poziom do SHiKN 2023.",
+        description: "Organizator konkursu na najciekawszy autorski poziom do SHiKN.", // rok/edycja
     },
     "2024_3e_mumionki_wygrany": {
         path: "ODZNAKI 1 TRANSZA/shikn zwycięzca.png",
         author: "maciekr",
         name: "Największy Dręczyciel Superherosa",
-        description: "Zwycięzca konkursu na naciekawszy autorski poziom do SHiKN 2023.",
+        description: "Zwycięzca konkursu na naciekawszy autorski poziom do SHiKN.", // rok/edycja
         supersedes: ["2024_3f_mumionki_uczestnik"],
     },
     "2024_3f_mumionki_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/shikn uczestnik.png",
         author: "maciekr",
         name: "Dręczyciel Superherosa",
-        description: "Uczestnik konkursu na najciekawszy autorski poziom do SHiKN 2023.",
+        description: "Uczestnik konkursu na najciekawszy autorski poziom do SHiKN.", // rok/edycja
     },
     "2024_3g_opowiadanie_nagranie_organizator": {
         path: "ODZNAKI 1 TRANSZA/opo za nagranie - organizator.png",
         author: "nika",
         name: "Redaktor Naczelny",
-        description: "Organizator konkursu \"Opowiadanie za nagranie\" 2023.",
+        description: "Organizator konkursu \"Opowiadanie za nagranie\".", // rok/edycja
     },
     "2024_3h_opowiadanie_nagranie_jury": {
         path: "ODZNAKI 1 TRANSZA/opo za nagranie - jury.png",
         author: "nika",
         name: "Krytyk Literacki",
-        description: "Jury oraz aktor głosowy konkursu \"Opowiadanie za nagranie\" 2023.",
+        description: "Jury oraz aktor głosowy konkursu \"Opowiadanie za nagranie\".", // rok/edycja
     },
     "2024_3i_opowiadanie_nagranie_wygrany": {
         path: "ODZNAKI 1 TRANSZA/opo za nagranie - zwycięzca.png",
         author: "nika",
         name: "Bestsellerowicz",
-        description: "Zwycięzca konkursu \"Opowiadanie za nagranie\" 2023.",
+        description: "Zwycięzca konkursu \"Opowiadanie za nagranie\".", // rok/edycja
         supersedes: ["2024_3j_opowiadanie_nagranie_uczestnik"],
     },
     "2024_3j_opowiadanie_nagranie_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/opo za nagranie - uczestnik.png",
         author: "nika",
         name: "Mały Fanficowicz",
-        description: "Uczestniki konkursu \"Opowiadanie za nagranie\" 2023.",
+        description: "Uczestnik konkursu \"Opowiadanie za nagranie\".", // rok/edycja
     },
     "2024_3k_baner_organizator": {
         path: "ODZNAKI 1 TRANSZA/baner org.png",
@@ -281,20 +281,20 @@
         path: "ODZNAKI 1 TRANSZA/Organizator konkursu na cover.png",
         author: "nika",
         name: "Broszę o Cover",
-        description: "Organizator konkursu na najlepszy cover utworu z Przygód Reksia 2024.",
+        description: "Organizator konkursu na najlepszy cover utworu z Przygód Reksia.", // rok/edycja
     },
     "2024_3o_cover_wygrany": {
         path: "ODZNAKI 1 TRANSZA/Zwyciezca konkursu na cover.png",
         author: "nika",
         name: "Pupilek Brosza",
-        description: "Zwycięzca konkursu na najlepszy cover utworu z Przygód Reksia 2024.",
+        description: "Zdobywca podium konkursu na najlepszy cover utworu z Przygód Reksia.", // rok/edycja, miejsce
         supersedes: ["2024_3p_cover_uczestnik"],
     },
     "2024_3p_cover_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/Uczestnik konkursu na cover.png",
         author: "nika",
         name: "Stażysta u Brosza",
-        description: "Uczestnik konkursu na najlepszy cover utworu z Przygód Reksia 2024.",
+        description: "Uczestnik konkursu na najlepszy cover utworu z Przygód Reksia.", // rok/edycja
     },
     "2024_4a_reksionerzy_organizator": {
         path: "ODZNAKI 1 TRANSZA/org reksionerów.png",
@@ -306,7 +306,7 @@
         path: "ODZNAKI 1 TRANSZA/zwycięzca reksionerów.png",
         author: "joda",
         name: "Reksioner",
-        description: "Zwycięzca głównej nagrody w teleturnieju \"Reksionerzy\".", // edycja/rok
+        description: "Zdobywca głównej nagrody w teleturnieju \"Reksionerzy\".", // edycja/rok
         supersedes: ["2024_4c_reksionerzy_uczestnik"],
     },
     "2024_4c_reksionerzy_uczestnik": {
@@ -355,7 +355,7 @@
         path: "ODZNAKI 1 TRANSZA/zwycięzca turnieju uprzejmości.png",
         author: "joda",
         name: "Mistrz Autobus",
-        description: "Zwycięzca Turnieju Uprzejmości.", // rok/edycja, miejsce
+        description: "Zdobywca podium Turnieju Uprzejmości.", // rok/edycja, miejsce
     },
     "2024_5h_shipy_organizator": {
         path: "ODZNAKI 1 TRANSZA/org turnieju shipowego.png",
@@ -440,26 +440,26 @@
         path: "ODZNAKI 1 TRANSZA/reksioronpa org.png",
         author: "joda",
         name: "Lienokuma",
-        description: "Prowadzący role-play'owej gry killing game \"Reksioronpa\" inspirowanej serią gier \"Danganronpa\".", // rok/edycja
+        description: "Prowadzący role-play'owej killing game \"Reksioronpa\" inspirowanej serią gier \"Danganronpa\".", // rok/edycja
     },
     "2024_6d_reksioronpa_mastermind": {
         path: "ODZNAKI 1 TRANSZA/reksioronpa mastermind.png",
         author: "joda",
         name: "Ten, Który Tak Potwornie Morduje",
-        description: "Mastermind role-play'owej gry killing game \"Reksioronpa\" inspirowanej serią gier \"Danganronpa\".", // rok/edycja
+        description: "Mastermind role-play'owej killing game \"Reksioronpa\" inspirowanej serią gier \"Danganronpa\".", // rok/edycja
     },
     "2024_reksioronpa_wygrany": {
         path: "ODZNAKI 1 TRANSZA/przetrwaniec reksioronpy.png",
         author: "joda",
         name: "Przetrwaniec",
-        description: "Uczestnik, który dotrwał żywy do końca role-play'owej gry killing game \"Reksioronpa\" inspirowanej serią gier \"Danganronpa\".", // rok/edycja
+        description: "Uczestnik, który dotrwał żywy do końca role-play'owej killing game \"Reksioronpa\" inspirowanej serią gier \"Danganronpa\".", // rok/edycja
         supersedes: ["2024_reksioronpa_uczestnik"],
     },
     "2024_reksioronpa_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/reksioronpa - uczestnik.png",
         author: "joda",
         name: "Uprowadzony",
-        description: "Uczestnik role-play'owej gry killing game \"Reksioronpa\" inspirowanej serią gier \"Danganronpa\".", // rok/edycja
+        description: "Uczestnik role-play'owej killing game \"Reksioronpa\" inspirowanej serią gier \"Danganronpa\".", // rok/edycja
     },
     "2024_7a_mikolajki_uczestnik": {
         path: "ODZNAKI 1 TRANSZA/Uczestnik akcji mikołajkowej.png",
@@ -527,7 +527,7 @@
         path: "ODZNAKI 1 TRANSZA/Dżemor_Uczestnik.png",
         author: "swerszcz",
         name: "Dżemowicz",
-        description: "Uczestnik Dżemu Growego Przygód Reksia.", // rok/edycja
+        description: "Uczestnik Dżemu Growego Przygód Reksia.", // rok/edycja, gra
     },
     "2024_9o_zbiorka_organizator": {
         path: "ODZNAKI 1 TRANSZA/Akcja charytatywna.png",
@@ -706,43 +706,43 @@
         path: "ODZNAKI 1 TRANSZA/tester.png",
         author: "swerszcz",
         name: "Pilot Oblatywacz",
-        description: "Tester gier i modyfikacji fandowskich.", // nazwa
+        description: "Tester gier i modyfikacji fanowskich.", // nazwa projektu
     },
     "2024_13d_pomocnik_dubbing": {
         path: "ODZNAKI 1 TRANSZA/DubbingGrowy.png",
         author: "swerszcz",
         name: "Rodzinka Kowalów",
-        description: "Osoba użyczająca głosu na potrzeby różnych projektów fandomowych.",
+        description: "Osoba użyczająca głosu na potrzeby różnych projektów fandomowych.", // nazwa projektu
     },
     "2024_13e_pomocnik_grafiki_gamedev": {
         path: "ODZNAKI 1 TRANSZA/Pomoc graficzna - FangameMod.png",
         author: "swerszcz",
         name: "Pędzel Gamedevu",
-        description: "Osoba wykonująca grafiki na potrzeby różnych projektów reksiowego gamedevu.",
+        description: "Osoba wykonująca grafiki na potrzeby różnych projektów reksiowego gamedevu.", // nazwa projektu
     },
     "2024_13f_pomocnik_grafiki_teleturnieje": {
         path: "ODZNAKI 1 TRANSZA/Pomoc graficzna - Teleturnieje.png",
         author: "swerszcz",
         name: "Artysta Studyjny",
-        description: "Osoba wykonująca grafiki na potrzeby reksiowych teleturniejów lub konkursów.",
+        description: "Osoba wykonująca grafiki na potrzeby reksiowych teleturniejów lub konkursów.", // nazwa projektu
     },
     "2024_13g_pomocnik_grafiki_inne": {
         path: "ODZNAKI 1 TRANSZA/Pomoc graficzna - Różności.png",
         author: "swerszcz",
         name: "Zwierzę Renesansu",
-        description: "Osoba wykonująca grafiki na potrzeby różnych projektów fandomowych, takich jak gry roleplay czy inne wydarzenia.",
+        description: "Osoba wykonująca grafiki na potrzeby różnych projektów fandomowych, takich jak gry roleplay czy inne wydarzenia.", // nazwa projektu
     },
     "2024_13g_pomocnik_muzyka": {
         path: "ODZNAKI 1 TRANSZA/pomoc muzyczna.png",
         author: "swerszcz",
         name: "Moleman",
-        description: "Osoba wykonująca muzykę na potrzeby różnych projektów fandomowych.",
+        description: "Osoba wykonująca muzykę na potrzeby różnych projektów fandomowych.", // nazwa projektu
     },
     "2024_14_archiwista": {
         path: "ODZNAKI 1 TRANSZA/archiwum.png",
         author: "maciekr",
         name: "Ten, co Robi Backupy",
-        description: "Osoba, która znacząco przyczyniła się do zachowania i zabezpieczania plików i wiadomości z jednej z platform fandomu lub plików gier z serii.",
+        description: "Osoba, która znacząco przyczyniła się do zachowania i zabezpieczania plików i wiadomości z jednej z platform fandomu lub plików gier z serii.", // lista backupów
     },
     "2024_15_odznaki_rysownik": {
         path: "ODZNAKI 1 TRANSZA/plejadagrafik_.png",

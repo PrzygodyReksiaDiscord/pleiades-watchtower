@@ -171,10 +171,10 @@ async def update_albums(client: discord.Client, collectors: dict[str, Collector]
         threads = {}
         # Fetch all threads created by the webhook
         for thread in channel.threads:
-            if history := process_thread(webhook, thread) is not None:
+            if (history := await process_thread(webhook, thread)) is not None:
                 threads[thread.id] = history
         async for thread in channel.archived_threads():
-            if history := process_thread(webhook, thread) is not None:
+            if (history := await process_thread(webhook, thread)) is not None:
                 threads[thread.id] = history
         # Check if there are any threads missing or no longer valid
         for thread_id, history in threads.items():
@@ -189,6 +189,7 @@ async def update_albums(client: discord.Client, collectors: dict[str, Collector]
                     to_delete.append(collector_id)
         # Create missing threads
         for collector_id in to_add:
+            logging.info(f"Adding user {collector_id} with {len(collector.album)} stickers")
             collector = collectors[collector_id]
             sent_starter = await webhook.send(
                 await prepare_starter_message_content(client, collector),
@@ -204,7 +205,7 @@ async def update_albums(client: discord.Client, collectors: dict[str, Collector]
                     discord.Embed(
                         title=glued_sticker.name, description=glued_sticker.description
                     )
-                    .set_thumbnail(url=glued_sticker.sticker.url)
+                    .set_image(url=glued_sticker.sticker.url)
                     .set_footer(text=prepare_sticker_footer(glued_sticker))
                 )
                 history.append(
